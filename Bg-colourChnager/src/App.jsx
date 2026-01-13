@@ -30,6 +30,19 @@ function App() {
               Blue
             </button>
 
+            <button onClick={() => setBgColor('green')} 
+            className="px-5 py-2 rounded-full text-white font-medium 
+      bg-green-500 hover:bg-green-600 
+      hover:scale-105 transition-all duration-200 shadow-md">
+              Green
+            </button>
+
+            <button onClick={() => setBgColor('yellow')} 
+            className="px-5 py-2 rounded-full text-white font-medium 
+      bg-yellow-500 hover:bg-yellow-600 
+      hover:scale-105 transition-all duration-200 shadow-md">
+              Yellow
+            </button>
           </div>
         </div>
       </div>
