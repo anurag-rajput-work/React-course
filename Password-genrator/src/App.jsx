@@ -32,7 +32,7 @@ function App() {
   return (
   <>
     {/* Background */}
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-900 via-gray-900 to-black px-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient from-indigo-900 via-gray-900 to-black px-4">
 
       {/* Card */}
       <div className="w-full max-w-lg rounded-3xl bg-gray-900/80 backdrop-blur-2xl shadow-[0_20px_60px_rgba(0,0,0,0.8)] p-8 border border-white/10">
